@@ -1,0 +1,89 @@
+ * {
+              /*  box-sizing: border-box;*/
+              }
+              
+              body { 
+                font-size:135%;
+                /*
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /*height: 100vh;
+                overflow: auto;
+                margin: 0;*/
+                
+            }
+            
+            a:link {
+                color: crimson;
+                background-color: transparent;
+                text-decoration: none;
+              }
+              
+              a:visited {
+                color: red;
+                background-color: transparent;
+                text-decoration: none;
+              }
+              
+              a:hover {
+                color: crimson;
+                background-color: transparent;
+                text-decoration: underline;
+                font-size: 102%;
+              }
+              
+              a:active {
+                color: purple;
+                background-color: transparent;
+                text-decoration: underline;
+              }
+              
+              hr { width:150px;}
+
+              .social { text-align: center;  margin: auto; }
+              .social ul { list-style: none; padding-left:0px;}
+              .social ul li { display: inline; padding:20px;margin:2px;}
+
+              .web-apps { text-align: left; width:70%; margin: auto;/*list-style-position: inside; /*margin: auto;*/ }
+              /*.web-apps ol { list-style-type: circle; padding-left:0px;}*/
+              /*.web-apps ol li { display: inline; padding:20px;margin:2px;}*/
+
+              h4 {margin:auto; text-align:center; font-size:110%;}
+
+              .forums { text-align: left; width:70%; margin: auto;/*list-style-position: inside; /*margin: auto;*/ }
+              
+              h1 {
+                padding-top:100px;
+                padding-bottom:25px;    
+                margin-bottom: 7px;
+            }
+            .bar-chart {
+                text-align: left; width:70%; margin: auto;
+            }
+            .bar-chart img {  
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+            .bar-chart p {
+                text-align: left; width:92%; margin: auto; padding:20px;
+            }
+            /*
+            .bg {
+                background: white no-repeat center center/cover;
+                position: absolute;
+                top: -30px;
+                /*left: -30px;
+                width: calc(100vw - 60px);
+                height: calc(100vh - 60px);
+                z-index: -1;
+                filter: blur(0px);
+              }
+              
+              .loading-text {
+                font-size: 150px;
+                color: crimson;
+                margin-top:450px;
+              }*/

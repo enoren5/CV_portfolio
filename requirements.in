@@ -1,0 +1,10 @@
+Django>=6
+asgiref
+dj-database-url
+gunicorn
+packaging
+psycopg2-binary
+python-decouple
+sqlparse
+typing_extensions
+whitenoise
