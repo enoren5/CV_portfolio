@@ -4,9 +4,9 @@ from django.http import Http404
 from gateway_defender.models import AuthToggle
 from django.contrib.auth.decorators import login_required
 from gateway_defender.custom_decorator import protected_redirect
+from django.utils.decorators import method_decorator
 
-
-@protected_redirect
+method_decorator(protected_redirect,name='dispatch')
 def HomeView(request):
     try:
         content = Content.objects.first()  # get the first (or only) record
