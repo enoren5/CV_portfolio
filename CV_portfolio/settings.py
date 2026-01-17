@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 'beacons.apps.BeaconsConfig',
     "gateway_defender",
+    "widget_tweaks",
 ]
 
 MIDDLEWARE = [
